@@ -19,7 +19,7 @@ Ce projet a été créé en 2026 comme travail pratique de quatrième session au
 ## Description du Jeu 
 Dans ce jeu, vous incarnez un Jedi avec un vaisseau et vous devez vous battre contre des Siths. Il y a un système d’actions, des options de combat, un journal de bord et un classement (leaderboard). Les Jedi, les Siths et les vaisseaux sont générés aléatoirement.
 
-Les bouttons :
+## The buttons/ Les boutons
 - [ ] Partir en mission / Start Mission
 - [ ] Terminer la mission / End Mission
 - [ ] Réparer le vaisseau (coûte 250 CG) / Repair Spaceship (Costs 250 CG)
