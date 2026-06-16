@@ -1,0 +1,12 @@
+{
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch Chrome localhost",
+      "skipFiles": ["${workspaceFolder}/node_modules/**/*.js"],
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}

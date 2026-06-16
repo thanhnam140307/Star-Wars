@@ -1,0 +1,73 @@
+h2 {
+  font-size: 1.5rem; 
+}
+
+h3 {
+  font-size: 1.2rem; 
+
+}
+
+.btn-group {
+  display: flex;
+}
+
+.btn-group button {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: 5px; /* Adjust as needed for spacing between buttons */
+  background-color: black;
+  color: white;
+  border: none; /* Remove default button border */
+  transition: opacity 0.3s ease; /* Smooth transition for hover effect */
+  border-radius: 10%; /* Make the button round */
+  padding: 5px; /* Add inner margin */
+  width: 102px; /* Set a fixed width */
+}
+.btn-group button:hover {
+  background-color: darkgreen; /* Change the background color to dark blue on hover */
+  opacity: 0.7; /* Adjust the opacity as desired */
+}
+
+.btn-group button img {
+  filter: invert(1) hue-rotate(180deg); /* Adjust the filter to change color to red */
+}
+
+.btn-group button:disabled {
+  opacity: 0.3; /* Adjust the opacity to visually indicate disabled state */
+  cursor: not-allowed; /* Change cursor to indicate the button is disabled */
+}
+
+.btn-group button:disabled {
+  opacity: 0.3; /* Adjust the opacity to visually indicate disabled state */
+  cursor: not-allowed; /* Change cursor to indicate the button is disabled */
+  background-color: black !important; /* Override the hover effect */
+}
+
+.btn-group button:not(:disabled):hover {
+  background-color: darkgreen; /* Change the background color to dark blue on hover */
+  opacity: 0.7; /* Adjust the opacity as desired */
+}
+
+ul {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000; /* Adjust as needed to ensure the list is on top of everything else */
+  max-height: 350px; /* Adjust as needed based on the height of your items */
+  overflow-y: auto; /* Add a vertical scrollbar */
+  background-color: black; /* Set the background color to black */
+  list-style-type: none; /* Remove the default list bullets */
+  padding: 10px; /* Add an inside margin */
+  margin: 0; /* Remove the default margin */
+  border-radius: 5px; /* Add rounded corners */
+  width: 250px; /* Adjust as needed */
+}
+
+ul li {
+  color: white; /* Set the text color to white */
+}
